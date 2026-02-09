@@ -22,7 +22,7 @@ class Particle:
 def simulate_shower(E0_TeV, step, theta_deg):
     """
     E0_TeV : energia primaria in TeV
-    step   : frazione di X0 (0 < step <= 1)
+    step   : frazione (0 < step <= 1)
     theta_deg : angolo rispetto alla verticale
     """
     E0 = E0_TeV * 1e6 #da TeV a MeV
